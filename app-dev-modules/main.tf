@@ -20,7 +20,7 @@ variable "subnet_address_prefixes" {
 }
 
 module "networking" {
-  source  = "app.terraform.io/cardinalsolutions/networking/azurerm"
+  source  = "BillKeanehub/azureworkshop-workspaces/networking/azurerm"
   version = "0.0.1"
 
   name                    = "${var.name}"
